@@ -30,7 +30,7 @@ dimspy blank-filter \
 --blank-label 'blank' \
 --min-fraction 1.0 \
 --function mean \
---min-fold-change 10.0 \
+--min-fold-change 1.0 \
 --remove-blank-samples
 
 echo "Blank Filter Complete"
